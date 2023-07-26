@@ -6,7 +6,7 @@
 [![Scanned by Frogbot](https://raw.github.com/jfrog/frogbot/master/images/frogbot-badge.svg)](https://github.com/jfrog/frogbot#readme)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jfrog/frogbot)](https://goreportcard.com/report/github.com/jfrog/frogbot)
 
-| Branch |                                                                                                                                                                                    Status                                                                                                                                                                                    |
+ |  Branch |                                                                                                                                                                                    Status                                                                                                                                                                                    |
 |:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | master | [![Build status](https://github.com/jfrog/frogbot/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/jfrog/frogbot/actions/workflows/test.yml?branch=master)  [![GitHub Action Test](https://github.com/jfrog/frogbot/actions/workflows/action-test.yml/badge.svg?branch=master)](https://github.com/jfrog/frogbot/actions/workflows/action-test.yml?branch=master) |
 |  dev   |                [![Build status](https://github.com/jfrog/frogbot/actions/workflows/test.yml/badge.svg?branch=dev)](https://github.com/jfrog/frogbot/actions/workflows/test.yml?branch=dev)  [![GitHub Action Test](https://github.com/jfrog/frogbot/actions/workflows/action-test.yml/badge.svg?branch=dev)](https://github.com/jfrog/frogbot/actions/workflows/action-test.yml?branch=dev)                |
@@ -15,14 +15,24 @@
 
 ## Table of contents
 
-- [🤖 About JFrog Frogbot](#-about-jfrog-frogbot)
-- [🖥️ Installing Frogbot](#️-installing-frogbot)
-- [🚥 Using Frogbot](#-using-frogbot)
-  - [Scanning pull requests](#scanning-pull-requests)
-  - [Scanning repositories and fixing issues](#scanning-repositories-and-fixing-issues)
-- [📛 Adding the Frogbot badge](#-adding-the-frogbot-badge)
-- [🔥 Reporting issues](#-reporting-issues)
-- [💻 Contributions](#-contributions)
+- [JFrog Frogbot](#jfrog-frogbot)
+  - [Table of contents](#table-of-contents)
+  - [🤖 About JFrog Frogbot](#-about-jfrog-frogbot)
+    - [Overview](#overview)
+    - [What's needed for the setup?](#whats-needed-for-the-setup)
+  - [🖥️ Installing Frogbot](#️-installing-frogbot)
+  - [🚥 Using Frogbot](#-using-frogbot)
+    - [Scanning pull requests](#scanning-pull-requests)
+      - [General](#general)
+      - [How to use Pull Request scanning?](#how-to-use-pull-request-scanning)
+      - [👮 Security note for pull requests scanning](#-security-note-for-pull-requests-scanning)
+      - [Scan results](#scan-results)
+        - [👍 No issues](#-no-issues)
+        - [👎 Issues were found](#-issues-were-found)
+    - [Scanning repositories and fixing issues](#scanning-repositories-and-fixing-issues)
+  - [📛 Adding the Frogbot badge](#-adding-the-frogbot-badge)
+  - [🔥 Reporting issues](#-reporting-issues)
+  - [💻 Contributions](#-contributions)
 
 <div id="what-is-frogbot"></div>
 
