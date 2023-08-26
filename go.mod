@@ -9,5 +9,5 @@ require (
 
 require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9 // indirect
+	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e // indirect
 )
