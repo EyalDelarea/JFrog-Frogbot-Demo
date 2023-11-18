@@ -13,7 +13,7 @@
 
 </div>
 
-## Table of contents
+## Table of contentsa
 
 - [🤖 About JFrog Frogbot](#-about-jfrog-frogbot)
 - [🖥️ Installing Frogbot](#️-installing-frogbot)
